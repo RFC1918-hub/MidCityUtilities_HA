@@ -1,9 +1,9 @@
-FROM python:3.11-alpine
+FROM alpine:latest
 
 # Install required packages
 RUN apk update && apk add --no-cache mosquitto-clients bash python3 py3-pip
-RUN pip3 install --no-cache-dir requests
-RUN pip3 install --no-cache-dir bs4
+RUN pip3 install --no-cache-dir --break-system-packages requests
+RUN pip3 install --no-cache-dir --break-system-packages bs4
 
 # Copy data for add-on
 COPY run.sh /
