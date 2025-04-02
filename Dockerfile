@@ -1,4 +1,5 @@
-FROM alpine:latest
+ARG BUILD_FROM
+FROM $BUILD_FROM
 
 # Install required packages
 RUN apk update && apk add --no-cache mosquitto-clients bash python3 py3-pip
