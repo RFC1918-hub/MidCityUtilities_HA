@@ -1,5 +1,4 @@
-ARG BUILD_FROM
-FROM $BUILD_FROM
+FROM python:3.11-alpine
 
 # Install required packages
 RUN apk update && apk add --no-cache mosquitto-clients bash python3 py3-pip
