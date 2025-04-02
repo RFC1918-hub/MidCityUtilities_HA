@@ -128,7 +128,7 @@ EOF
         exit 1
     fi
     # Extract data from the JSON file
-    METER_BALANCE=$(jq -r '.meter_balance' midcity_connect.json)
+    METER_BALANCE=$(jq -r '.meter_balance' midcity_connect.json | grep -o '[0-9\.]\+')
     PREDICTED_ZERO_BALANCE=$(jq -r '.predicted_zero_balance' midcity_connect.json)
 
     echo "Meter Balance: ${METER_BALANCE}"
