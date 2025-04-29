@@ -86,8 +86,8 @@ do
 "state_class": "${state_class}",
 "device": {
     "identifiers": ["midcity_utilities"],
-    "name": "Sunsynk Inverter",
-    "manufacturer": "Sunsynk",
+    "name": "Midcity Utilities",
+    "manufacturer": "Midcity",
     "model": "Inverter"
 }
 }
@@ -126,8 +126,8 @@ EOF
 "icon": "mdi:information-outline",
 "device": {
     "identifiers": ["midcity_utilities"],
-    "name": "Sunsynk Inverter",
-    "manufacturer": "Sunsynk",
+    "name": "Midcity Utilities",
+    "manufacturer": "Midcity",
     "model": "Inverter"
 }
 }

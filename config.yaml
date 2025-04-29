@@ -1,6 +1,6 @@
 name: "MidCityUtilities_HA"
 description: "Addon to integrate your MidCityUtilities account into Home Assistant"
-version: "1.0.0"
+version: "1.0.1"
 slug: "midcity_utilities"
 init: false
 arch:
